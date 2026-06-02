@@ -7,11 +7,11 @@ const Context = () => {
   const [list,setList]=useState([])
   function handleLogin()
   {
-    setUserText("Current user:rohan, isAuthenticated: Yes")
+    setUserText("Current user:rohan, isAuthenticated: Yes");
   }
   function handleSignout()
   {
-    setUserText("Current user:, isAuthenticated: No")
+    setUserText("Current user:, isAuthenticated: No");
   }
   function handleInput(e)
   {
